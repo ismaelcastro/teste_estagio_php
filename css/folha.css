@@ -8,6 +8,14 @@
 ul{
 	list-style:none;
 }
+.titulo{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin-bottom:15px;
+}
+#score{
+	margin-left:30px;
+}
 #base{
 	width:900px;
 	margin-left: auto;
@@ -61,10 +69,32 @@ ul{
 	overflow-y:scroll;
 }
 .repos_list li{
-	padding:5px 0;
+	padding:10px 0;
+	border-bottom:1px solid #CCC;
 }
 .repos_list li a{
 	text-decoration:none;
 	font-size:14px;
 	color:#06F;
+}
+.conteiner{
+	width:300px;
+	float:right;
+}
+
+.info-repos{
+	color:#000;
+	font-weight:bold;
+	padding:5px 0px 5px 10px;
+	border-radius: 3px;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	border:1px solid #999;
+	margin-right:30px;
+}
+.info-repos>i{
+	background:#FFF;
+	padding:5px;
+	border-left:1px solid #CCC;
 }

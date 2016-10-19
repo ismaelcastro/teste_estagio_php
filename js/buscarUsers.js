@@ -3,6 +3,7 @@ $(document).ready(function() {
 $("#busca").keyup(function(e) {
 	if(e.which == 13 ){
 	busca=$(this).val();
+	$(".titulo").html("Resultados para "+ busca);
 	$('#user_list').html("");
     $.ajax({
         type: "POST",
